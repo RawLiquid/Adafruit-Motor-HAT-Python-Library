@@ -161,7 +161,7 @@ class Adafruit_StepperMotor:
             s_per_s /= self.MICROSTEPS
             steps *= self.MICROSTEPS
 
-        print("{} sec per step".format(s_per_s))
+        #print("{} sec per step".format(s_per_s))
 
         steps_done = 0
         for s in range(steps):
